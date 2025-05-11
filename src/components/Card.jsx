@@ -17,7 +17,7 @@ const Card = ({ title, description, imageSrc }) => {
           paddingBottom={5}
         >
           <VStack spacing={3}>
-            <Image src={imageSrc} alt={title} rounded="3xl" />
+            <Image src={imageSrc} alt={title} rounded="3xl" height={395} />
             <Box paddingX={4}>
               <Heading paddingY={3} size="md">
                 {title}
